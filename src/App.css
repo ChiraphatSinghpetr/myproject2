@@ -3,9 +3,9 @@
 }
 
 .site-shell {
-  width: min(100%, 1180px);
+  width: 100%;
   min-height: 100vh;
-  margin: 0 auto;
+  margin: 0;
   padding: 0 18px;
 }
 
@@ -1118,7 +1118,6 @@ main {
     grid-template-columns: 0.9fr 1.1fr;
     align-items: center;
     gap: 48px;
-    max-width: 900px;
     margin: 45px auto 0;
   }
 
@@ -1146,7 +1145,6 @@ main {
 
   .member-toolbar {
     flex-wrap: nowrap;
-    max-width: 900px;
     margin: 0 auto 18px;
   }
 
@@ -1162,7 +1160,6 @@ main {
   .member-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 16px;
-    max-width: 900px;
     margin: 0 auto;
   }
 
